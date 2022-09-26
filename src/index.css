@@ -1,0 +1,33 @@
+
+
+form {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+header {
+  
+
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6.8px);
+
+}
+
+#content-porto {
+    border-radius: 10px;
+    background: #EDF2F7;
+    box-shadow:  10px 10px 20px #bebebe,
+    -10px -10px 20px #ffffff;
+}
+
+
+
+
+
+ 
