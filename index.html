@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header class="fixed  h-14 lg:h-20 lg:px-5  md:flex md:justify-center top-0 left-0 w-full flex items-center z-10">
+  <header class="fixed  h-18 lg:h-20 lg:px-5  md:flex md:justify-center top-0 left-0 w-full flex  justify-center  z-10">
       <div class="container">
           <div class="flex items-center justify-between relative ">
               <div class="px-4">
@@ -20,9 +20,9 @@
               </div>
               <div class="flex items-center px-4 t">
                 <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600 hover:bg-transparent"></span>
-                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600 hover:bg-transparent"></span>
-                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600 hover:bg-transparent"></span>
+                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600  transition duration-300 ease-in-out"></span>
+                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600  transition duration-300 ease-in-out"></span>
+                  <span class="w-[30px] h-[2px] my-2 block bg-blue-600  transition duration-300 ease-in-out"></span>
                 </button>
                 <nav id="menu" class="hidden absolute py-5 bg-slate-200 shadow-lg rounded max-w-[250px] w-full right-3 top-full bg-opacity-90 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                   <ul class="block lg:flex lg:mr-20">
@@ -45,7 +45,7 @@
           </div>
       </div>
   </header>
-   <section id="home" class="pt-36 bg-slate-100 lg:pl-20 pb-8 md:flex md:justify-center">
+   <section id="home" class="pt-36 bg-slate-100 lg:pl-20 pb-8 md:flex md:justify-center flex justify-center px-30">
         <div class="container">
             <div class="flex flex-wrap mx-auto">
                 <div class="w-full self-center px-5 lg:w-1/2   ">
@@ -63,8 +63,8 @@
         </div>
    </section>
 
-   <section id="about" class="pt-36 pb-12 bg-slate-100 md:flex md:justify-center">
-        <div class="container lg:px-14">
+   <section id="about" class="pt-36 pb-12 bg-slate-100 md:flex md:justify-center flex justify-center ">
+        <div class="container lg:px-16">
             <div class="flex flex-wrap">
                 <div class="w-full px-5 mb-10 lg:px-10">
                     <h4 class="mb-3 font-bold text-blue-600 text-lg">About Me</h4>
@@ -73,14 +73,14 @@
                         Able to adept and work clearly both individual and team. Have a great responsibility and big will. Active and creative. Act quickly in dealing existing problems.</p>
                 </div>  
 
-                <div class="w-full px-5 flex flex-wrap lg:ml-20 ">
+                <div class="w-full px-5 flex flex-wrap lg:ml-20 md:ml-20 ">
                   <h1 class="mb-3 font-bold text-blue-600 text-lg">Educational background</h1>
                   <div class="w-full mb-3">
-                    <h2 class="text-black font-bold lg:pl-15">Senior High School 2 Pringsewu</h2>
+                    <h2 class="text-black font-bold lg:pl-15 md:pl-15">Senior High School 2 Pringsewu</h2>
                     <p class="text-base text-slate-600">[2017 - 2019]</p>
                   </div>
                   <div class="w-full mb-3">
-                    <h2 class="text-black font-bold lg:pl-15">Bachelor's degree, Computer Science</h2>
+                    <h2 class="text-black font-bold lg:pl-15 md:pl-15">Bachelor's degree, Computer Science</h2>
                     <p class="text-base text-slate-600">[2019 - Now]</p>
                   </div>
                 </div>
@@ -90,41 +90,49 @@
         </div>
    </section>
 
-   <section id="porto" class="pt-36 pb-16">
+   <section id="porto" class="pt-36 pb-16 flex justify-center md:flex md:justify-center">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-8 lg:mb-5">
-                    <h4 class=" font-bold text-blue-600 text-lg md:flex md:justify-center ">PORTOFOLIO</h4>
+                    <h4 class=" font-bold text-blue-600 text-lg md:flex md:justify-center  lg:ml-0">PORTOFOLIO</h4>
                     
                 </div>
 
-                <div class="w-full px-4 lg:p-5 flex flex-wrap justify-center md:flex md:flex-wrap ">
-                  <div id="content-porto" class="mb-12 p-6 lg:w-1/3 md:w-1/2 md:m-5   lg:m-5 ">
+                <div class="w-full px-4 lg:p-5 flex flex-wrap justify-center md:flex md:justify-center  md:px-5">
+                  <div id="content-porto" class="mb-12 p-6 lg:w-1/4 md:w-1/3 md:m-5  ">
                       <div class="rounded-md shadow-md overflow-hidden">
                           <img src="/images/siabinila.png" alt="siabinila" width="max-w-xl">
                       </div>
-                      <h2 class="text-black font-bold py-2 text-center">SIABINILA</h2>
+                      <a href="https://github.com/fikriaslamt/siabinila">
+                        <h2 class="text-black font-bold py-2 text-center">SIABINILA</h2>
+                      </a>
                       <p class="text-slate-700 text-sm text-center">Building Information System Jurusan Administrasi Bisnis using CodeIgniter framework</p>
                   </div>
-                  <div id="content-porto" class="mb-12 p-6 lg:w-1/3 md:w-1/2 md:m-5  lg:m-5 ">
+                  <div id="content-porto" class="mb-12 p-6 lg:w-1/4 md:w-1/3 md:m-5 ">
                       <div class="rounded-md shadow-md overflow-hidden">
                           <img src="/images/web-kejayaan.png" alt="web-kejayaan" width="max-w-xl">
                       </div>
-                      <h2 class="text-black font-bold py-2 text-center">WEB KEJAYAAN</h2>
+                      <a href="https://github.com/fikriaslamt/webkejayaan">
+                          <h2 class="text-black font-bold py-2 text-center">WEB KEJAYAAN</h2>
+                      </a>
                       <p class="text-slate-700 text-sm text-center">Building profile Website Pekon Kejayaan</p>
                   </div>
-                  <div id="content-porto" class="mb-12 p-6 lg:w-1/3 md:w-1/2 md:m-5  lg:m-5 ">
+                  <div id="content-porto" class="mb-12 p-6 lg:w-1/4 md:w-1/3 md:m-5 ">
                       <div class="rounded-md shadow-md overflow-hidden">
                           <img src="/images/play-on.png" alt="play-on" width="max-w-xl">
                       </div>
-                      <h2 class="text-black font-bold py-2 text-center">Play ON</h2>
+                      <a href="https://github.com/fikriaslamt/Play-ON">
+                          <h2 class="text-black font-bold py-2 text-center">Play ON</h2>
+                      </a>
                       <p class="text-slate-700 text-sm text-center">Building Video Player Aplication for Mobile using JAVA with Android Studio</p>
                   </div>
-                  <div id="content-porto" class="mb-12 p-6 lg:w-1/3 md:w-1/2 md:m-5  lg:m-5 ">
+                  <div id="content-porto" class="mb-12 p-6 lg:w-1/4 md:w-1/3 md:m-5 ">
                       <div class="rounded-md shadow-md overflow-hidden">
                           <img src="/images/respon-api.png" alt="respon-api" width="max-w-xl">
                       </div>
-                      <h2 class="text-black font-bold py-2 text-center">respon-api</h2>
+                      <a href="https://github.com/fikriaslamt/respon-api">
+                          <h2 class="text-black font-bold py-2 text-center">respon-api</h2>
+                      </a>
                       <p class="text-slate-700 text-sm text-center">Building RestFull API using PHP with CodeIgniter FrameWork</p>
                   </div>
                 </div>
@@ -133,8 +141,8 @@
    </section>
 
 
-   <section id="Contact" class="pt-36 pb-32 bg-slate-100 ">
-    <div  class="container lg:px-5 py-5 lg:flex lg:justify-center md:flex ">
+   <section id="Contact" class="pt-36 pb-32 bg-slate-100 md:flex md:justify-center md:px-5 flex justify-center">
+    <div  class="container lg:px-5 py-5 lg:flex lg:justify-center  ">
             
       <div class="w-full max-ws lg:max-w-xl px-5 lg:px-5 ">
           <h4 class=" font-bold text-blue-600 text-lg "">Contact me</h4>

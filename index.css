@@ -1,4 +1,19 @@
+.hamburger-active > span:nth-child(1) {
+    transform:  rotate(45deg);
+    transform-origin: top left;
+ 
+    
+}
+.hamburger-active > span:nth-child(2) {
+    transform: scale(0);
+ 
+}
 
+.hamburger-active > span:nth-child(3) {
+    transform:  rotate(-45deg);
+    transform-origin: bottom left;
+ 
+}
 
 form {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
